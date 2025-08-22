@@ -1,0 +1,5 @@
+when login form doesn't get error message ''
+run cmd
+
+javac -cp .;mysql-connector-java-8.0.28.jar Login.java Conn.java
+java -cp .;mysql-connector-java-8.0.28.jar Login

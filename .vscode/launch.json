@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Login with JDBC",
+            "request": "launch",
+            "mainClass": "Login",
+            "classPaths": [
+                ".",
+                "C:\\Users\\hp\\Documents\\University Management System Java\\mysql-connector-java-8.0.28.jar"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Run AddStudent with JCalendar",
+            "request": "launch",
+            "mainClass": "AddStudent",
+            "classPaths": [
+                ".",
+                "C:\\Users\\hp\\Documents\\University Management System Java\\mysql-connector-java-8.0.28.jar",
+                "C:\\Users\\hp\\Documents\\University Management System Java\\jcalendar-1.4.jar"
+            ]
+        }
+    ]
+}
